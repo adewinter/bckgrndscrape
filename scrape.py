@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 BASE_URL = "http://www.reddit.com/r/earthporn+villageporn+cityporn+spaceporn+waterporn+abandonedporn+botanicalporn+adrenalineporn+destructionporn+machineporn+geekporn+mapporn+adporn+designporn+roomporn+skyporn+fireporn+infrastructureporn+climbingporn+architectureporn+artporn+cemeteryporn+fractalporn+exposureporn+gunporn+agricultureporn+geologyporn+futureporn"
 
+
 class Scraper(object):
 	content = ''
 	soup = None
