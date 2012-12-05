@@ -7,18 +7,20 @@ Setup
 =====
 
 Clone this repo
-Make sure you have a folder called "pics" as a subfolder to the repo root
+Make sure you have a folder called `pics` as a subfolder to the repo root
 
 
 Requirements
-============
-python Requests  (pip install requests for the lazy)
+------------
+Currently the only external dependency is python-requests:
+
+    pip install requests
 
 
 Usage
 =====
 
-python scrape.py
+    python scrape.py
 
 
 
